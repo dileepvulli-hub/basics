@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t=np.arange(-5,10.1,0.2)
+d=np.where(t==0,1,0)
+plt.plot(t,d)
+plt.title('unit impulse signal')
+plt.xlabel('time')
+plt.ylabel('amplitude')
+plt.grid(True)
+plt.show()
