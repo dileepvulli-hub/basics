@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t=np.arange(-5,10.1,0.2)
+e=np.zeros(len(t))
+a=2
+b=1
+e=a*np.exp(b*t)
+plt.plot(t,e)
+plt.title('exponential signal')
+plt.xlabel('time')
+plt.ylabel('amplitude')
+plt.grid(True)
+plt.show()
