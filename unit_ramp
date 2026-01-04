@@ -1,0 +1,10 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t=np.arange(-5,10.1,0.2)
+r=np.where(t>=0,t,0)
+plt.plot(t,r)
+plt.title('unit ramp signal')
+plt.xlabel('time')
+plt.ylabel('amplitude')
+plt.grid(True)
+plt.show()
